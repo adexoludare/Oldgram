@@ -9,18 +9,22 @@ html, body {
 }
 
 .header{
-    width:95%;
+    width:100%;
     display: flex;
     justify-content:space-between;
     background: white;
     border-radius: 8px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-left: 2%;
+    padding: 2px 12px;
 }
 .header img{
     width: 127px;
     height: 33.02px;
+}
+.header .avater{
+    width: 100px;
+    border-radius: 50%;
 }
 .icons{
     width: 104.34px;
